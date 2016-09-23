@@ -122,3 +122,65 @@ figure {
     margin: 0 auto;
     position: relative;
 }
+
+.seccion {
+	height: 700px;
+	padding-bottom: 200px;
+	
+}
+
+.contenedor {
+	height: auto;
+    width: auto;
+    margin: 0px 0px 300px 0px;
+    padding: 10px;
+    background-color: rgba(88, 40, 44, 0.3);
+    display: flex;
+
+}
+
+.barraContenido {
+	width: 70%;
+	background-color: lightblue;
+	height: 80px;
+	border: 1px solid red;
+}
+
+.barraNoticias {
+	width: 28%;
+    background-color: white;
+    height: auto;
+    border: 2px solid #854D96;
+    display: block;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+
+}
+
+.cumpleaños {
+	border: 1px solid red;
+	height: auto;
+	background-image: url('../imagenes/Estadio_cumpleaños.jpg');
+	background-size: cover;
+}
+
+.cumpleaños img {
+	height: 229px;
+    
+    
+}
+
+.cumpleaños h1 {
+	color: yellow;
+	font-size: 40px;
+	margin: 10px 0px;
+
+}
+
+.cumpleaños h3 {
+	color: white;
+	font
+    font-size: 20px;
+    margin: 10px 0;
+}
