@@ -4,6 +4,7 @@
 
 body {
 	margin: 0px 0px;
+	width: 100%;
 }
 
 .portada {
@@ -16,27 +17,27 @@ body {
 
 .mediosSociales {
 	background-color: #854D96;
-	height: 40px;
-	color: white;
-	display: -webkit-box;
+    height: 40px;
+    color: white;
+    display: block;
 
 }
 
 .mediosSociales p {
-	width: 15%;
+	width: 30%;
     display: inline;
     position: absolute;
     font-size: 30px;
     right: 130px;
-    top: -34px;
+    top: -6px;
     font-family: 'Kalam', cursive;
+    margin: 0px;
+    text-align: end;
 }
 
 .mediosSociales img {
-	display: inline;
-    position: relative;
-    left: 1065px;
-    top: 2px;
+	float: right;
+    margin: 5px;
 }
 
 .menu {
