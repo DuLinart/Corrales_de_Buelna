@@ -116,7 +116,7 @@ body {
 	margin: 0 auto;
 }
 
-figure {
+.escudo figure {
 	top: -88px;
     width: 300px;
     margin: 0 auto;
@@ -142,8 +142,20 @@ figure {
 .barraContenido {
 	width: 70%;
 	background-color: lightblue;
-	height: 80px;
+	height: auto;
 	border: 1px solid red;
+}
+
+.barraContenido figure {
+	margin: 0px;
+	padding: 5px;
+
+}
+
+.barraContenido img {
+	width: 100%;
+
+
 }
 
 .barraNoticias {
