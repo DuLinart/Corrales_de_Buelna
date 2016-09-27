@@ -160,9 +160,9 @@ body {
 
 .barraNoticias {
 	width: 28%;
-    background-color: white;
-    height: auto;
-    border: 2px solid #854D96;
+    /*background-color: white;
+*/    height: auto;
+    border: 1px solid red;
     display: block;
     position: absolute;
     right: 10px;
@@ -171,10 +171,10 @@ body {
 }
 
 .cumpleaños {
-	border: 1px solid red;
 	height: auto;
 	background-image: url('../imagenes/Estadio_cumpleaños.jpg');
 	background-size: cover;
+	background-color: #854D96;
 }
 
 .cumpleaños img {
@@ -186,15 +186,30 @@ body {
 .cumpleaños h1 {
 	color: yellow;
 	font-size: 40px;
-	margin: 10px 0px;
+	margin: 0px;
 	font-family: 'Tillana', cursive;
 
 }
 
 .cumpleaños h3 {
 	color: white;
-	font
     font-size: 20px;
-    margin: 10px 0;
+    margin: 2px 0;
     font-family: 'Michroma', sans-serif;
+}
+
+.Video {
+	height: 250px;
+	width: auto;
+	background-color: #854D96
+
+}
+
+.Video iframe {
+	height: 224px;
+    width: 100%;
+}
+
+.Video h3 {
+	margin: 5px;
 }
